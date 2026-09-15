@@ -13,7 +13,10 @@
         <p>A log of my starred repositories.</p>
       </header>
 
-      <ul id="starred-repositories" class="repo-list" aria-live="polite"></ul>
+      <p id="status" class="sr-only" role="status" aria-live="polite" aria-atomic="true">
+        Loading starred repositories...
+      </p>
+      <ul id="starred-repositories" class="repo-list"></ul>
     </main>
 
     <script src="script.js"></script>
